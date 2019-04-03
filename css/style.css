@@ -51,9 +51,23 @@ table {
 
 /* 위는 기본 */
 
+/* html{
+    width:1200px;
+} */
+
 .container{
     background: yellow;
 }
+
+.header,.navigation{
+    margin: 0, auto;
+}
+
+.logo, .content, .etc, .footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 
 .header{
     background: white;
@@ -79,10 +93,11 @@ table {
 .menu{
     /* float: right; */
     display: flex;
-    position: relative;
+    position: absolute;
     left: 300px;
     justify-content: flex-start;
-    bottom: 26px; 
+    top: 2px;
+    /* background: red; */
 
 }
 
@@ -94,22 +109,67 @@ table {
 .menu-go{
     color: #181818;
     text-decoration: none;
+    position: relative;
+    display: inline-block;
     
 }
 
-.menu-go:hover{
+/* .menu-go:hover{
     color: green;
+} */
+
+.menu2-item2{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* padding: 12px 16px; */
+    z-index: 1;
 }
+.menu-go:hover {
+    color:green;
+}
+.menu-item:hover .menu2-item2{
+    display: block;
+}
+
 
 .visual{
     background: pink;
-    height: 430px;
+    height: auto;
+    
+    /* position: static; */
+
+}
+
+.visual-img{
+    position: static;
+    /* height: 100%; */
 }
 
 .content{
     background: purple;
     height: 490px;
 }
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 37px;
+}
+
+
+.news-item{
+    /* margin: 40px; */
+    background: lime;
+    display: block;
+}
+
+.item1, .item2{
+    display: inline-block;
+}
+
 
 .etc{
     background: blue;
