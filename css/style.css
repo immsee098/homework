@@ -56,7 +56,7 @@ table {
 } */
 
 
-h1, h3{
+h1, h3, h4{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -105,7 +105,7 @@ h1, h3{
     position: absolute;
     left: 300px;
     justify-content: flex-start;
-    top: 13px;
+    top: 32px;
     /* background: red; */
 
 }
@@ -149,22 +149,36 @@ h1, h3{
     color:black;
 }
 
+.select-box1{
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.site-map{
+    text-decoration: none;
+    color:gray;
+    margin-right: 30px;
+}
+
 
 .visual{
-    background: pink;
+    /* background: pink; */
     height: auto;
+    
     
     /* position: static; */
 
 }
 
 .visual-img{
-    position: static;
+    display: flex;
+    align-items: center;
     /* height: 100%; */
 }
 
 .content{
-    background: purple;
+    /* background: purple; */
     height: 490px;
 }
 
@@ -180,7 +194,7 @@ h2{
 
 .news-item{
     margin: 30px;
-    background: lime;
+    /* background: lime; */
     display: inline-block;
     font-size:20px;
 }
@@ -213,7 +227,7 @@ h2{
     /* background: green; */
 }
 
-.etc-link{
+.etc-link, .footer-link{
     text-decoration: none;
     color: #181818
 }
@@ -229,4 +243,18 @@ small{
 .footer{
     background: gray;
     height: 85px
+}
+
+.footer-item{
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 3px;
+    /* background: pink; */
+    font-weight: bold;
+}
+
+.footer-list li:nth-child(n+3)::before{
+    content: " |  ";
+    font-weight: bold;
 }
