@@ -67,12 +67,6 @@ table {
     clip: rect(0 0 0 0);
 }
 
-select{
-    border: 1px solid lightgray;
-    width: 140px;
-    height:40px;
-    border-radius: 10px;
-}
 
 /* .container{
     background: yellow;
@@ -196,6 +190,7 @@ select{
 
 .lang{
     background: yellow;
+    position: relative;
 }
 
 
@@ -209,7 +204,7 @@ select{
 .visual{
     /* background: pink; */
     height: 546px;
-    background-image: url("/images/visual.png");
+    background-image: url("0407\images\visual.png");
     background-repeat: no-repeat;
     background-position-x: 50%;
     /* position: static; */
