@@ -176,8 +176,10 @@ table {
 
 
 .sites-m{
+    margin-top: 10px;
     background: blue;
     margin-left:400px;
+    text-decoration: none;
 }
 
 
@@ -189,15 +191,46 @@ table {
 }
 
 .lang{
-    background: yellow;
+    border: 1px solid gray;
+    background: white;
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    left: 100px;
+}
+
+.lang-default {
+    position: static;
+    padding-top:10px;
+    /* background: lime; */
+    text-align: center;
+    width: 130px;
+
+    
+    
+}
+
+
+.lang-list{
+    /* background: coral; */
     position: absolute;
+    width: 131px;
+    left:-1px;
+    top: -1px;
+    border: 1px solid gray;
+    background: white;
+    border-radius: 20px;
+}
+
+.lang-item{
+    padding: 10px;
 }
 
 
 .site-map{
     text-decoration: none;
     color:gray;
-    margin-right: 30px;
 }
 
 

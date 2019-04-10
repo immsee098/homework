@@ -1,10 +1,13 @@
 
 $(function(){
-    $(".lang-item").hide();
+    $(".lang-list").hide();
 
-    $(".lang-default").click(function(){
-            $(".lang-item").toggle();
-    });
+    $(".lang").click(function(){
+        $(".lang-list").toggle();
+});
 
+    // $(".lang-default").click(function(){
+    //         $(".lang-list").toggle();
+    // });
 
 });
