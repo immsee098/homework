@@ -190,7 +190,7 @@ table {
 
 .lang{
     background: yellow;
-    position: relative;
+    position: absolute;
 }
 
 
@@ -204,12 +204,14 @@ table {
 .visual{
     /* background: pink; */
     height: 546px;
-    background-image: url("0407\images\visual.png");
+    background-image: url("/0407/images/visual.png");
     background-repeat: no-repeat;
     background-position-x: 50%;
     /* position: static; */
 
 }
+
+
 
 .visual-box{
     width: 1400px;
